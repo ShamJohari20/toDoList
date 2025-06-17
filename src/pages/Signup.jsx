@@ -61,7 +61,7 @@ function Signup() {
         <>
             <div className={style.main}>
                 <div className={style.child1}>
-                    <img className={style.logo} src="/logo3.png" />
+                    <img className={style.logo} src="/logo.png" />
                     <div className={style.form} >
 
                         <div className={style.name}>
@@ -89,7 +89,7 @@ function Signup() {
                         </div>
 
                         <button onClick={() => signupUser()} className={style.btn}>Signup</button>
-                        <Link className={style.lnk} to={"/Login"}>Already Register? Login</Link>
+                        <Link className={style.lnk} to={"/"}>Already Register? Login</Link>
 
                     </div>
 

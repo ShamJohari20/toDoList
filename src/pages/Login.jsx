@@ -4,8 +4,7 @@ import Signup from './Signup'
 import { Link, useNavigate } from 'react-router-dom'
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from './Firebase';
-import Home from './Home';
-
+import Home from './home';
 
 
 
@@ -38,7 +37,7 @@ function Login() {
     <>
       <div className={style.main}>
         <div className={style.child1}>
-          <img className={style.logo} src="/logo3.png" />
+          <img className={style.logo} src="/logo.png" />
           <div className={style.form} >
 
             <div className={style.name}>
