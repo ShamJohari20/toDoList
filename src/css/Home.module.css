@@ -1,0 +1,115 @@
+/* File: src/css/Home.module.css */
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  background-color: lightcyan;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: center;
+  justify-content: center;
+}
+
+.headingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* or whatever you need */
+}
+
+.heading {
+  font-size: 3rem;
+  text-shadow: 0 0 7px rgb(224, 26, 211), 0 0 7px rgb(26, 204, 224);
+  white-space: nowrap;
+  letter-spacing: 1px;
+  overflow: hidden;
+  border-right: 2px solid white;
+  width: 0;
+  animation: typing 2s steps(30, end) forwards;
+  animation-delay: 0.2s;
+  color: rgb(246, 248, 249);
+  display: inline-block;
+  text-align: center;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 10ch; /* Adjust according to your text, "To Do App" ~ 9ch */
+  }
+}
+
+
+.inputContainer {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 13px;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputBox {
+  height: 35px;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #000;
+  border-radius: 80px;
+}
+
+.addButton {
+  height: 35px;
+  width: 100px;
+  border-radius: 70px;
+  cursor: pointer;
+}
+
+.taskContainer {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+}
+
+.taskSection {
+  width: 300px;
+  border: 1px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 150px;
+  overflow-y: auto;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+}
+
+.taskItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  width: 25px;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  font-size: 25px;
+}
+
+li {
+  list-style: none;
+  font-size: 25px;
+}
