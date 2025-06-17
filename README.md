@@ -1,10 +1,8 @@
 # To-Do-List App
-- 
-
 
 #  Firebase React To-Do App
 
-A full-stack task manager built using **React**, **Firebase Authentication**, and **Cloud Firestore**. This app allows users to **add, edit, delete, complete**, and **undo tasks**. Each user has their own task list linked by their authentication.
+A full stack task manager built using **React**, **Firebase Authentication**, and **Cloud Firestore**. This app allows users to **add, edit, delete, complete**, and **undo tasks**. Each user has their own task list linked by their authentication.
 
 ---
 
@@ -133,7 +131,7 @@ App runs at: `http://localhost:5173`
 
 ---
 
-##  Deployment (Optional)
+##  Deployment 
 
 ### Vercel
 
@@ -156,7 +154,9 @@ App runs at: `http://localhost:5173`
 ##  Author
 
 **Sham Johari**
+
  Email: [shamjohari101@gmail.com](shamjohari101@gmail.com)
+ 
  [https://www.linkedin.com/in/sham-johari](https://www.linkedin.com/in/sham-johari)
 
 ---

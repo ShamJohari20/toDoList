@@ -4,7 +4,7 @@ import Signup from './Signup'
 import { Link, useNavigate } from 'react-router-dom'
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from './Firebase';
-import Home from './home';
+import Home from './Home';
 
 
 
